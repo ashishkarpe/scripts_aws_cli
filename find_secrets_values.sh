@@ -1,5 +1,5 @@
 # Script to List all available AWS secrets to a /tmp/name.text and find specific secret values from it
-# Note needs AWS CLI confiure to run this script successfully 
+# Note needs AWS CLI configure to run this script successfully 
 
 #!/bin/bash
 
