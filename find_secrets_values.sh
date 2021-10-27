@@ -4,7 +4,7 @@
 #!/bin/bash
 
 aws secretsmanager list-secrets | grep  "Name" | awk '{print $2}' | tr -d '"' | sed 's/,/ /g' > /tmp/name.text
-
+rm -rfv /tmp/secrets-values.txt
 for line in `cat /tmp/name.text`
 do
 
